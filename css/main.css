@@ -1,9 +1,30 @@
+* {
+    font-family: 'Noto Serif SC', serif;
+    
+}
+
+
 .hero{
+
 
    
     background-image: linear-gradient( to top right,  #1c0b19, #07393c,#1c0b19 );
-    color:white;
 }
+
+.logo{
+    font-family: 'Great Vibes', cursive;
+    color:#3dccc7;
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+
+.navbar {
+    color:#3dccc7;
+    font-size: 1.5rem;
+     
+ }
+ 
 
 /*Animations*/
 .circles{
@@ -130,10 +151,5 @@
 }
     /*animations ends here*/
 
-.logo{
-    font-family: 'Great Vibes', cursive;
-    color:#f2d00e;
-    font-size: 2em;
-    font-weight: bolder;
 
-}
+
