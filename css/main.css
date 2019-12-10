@@ -1,13 +1,11 @@
 * {
     font-family: 'Noto Serif SC', serif;
     
+    
 }
 
 
 .hero{
-
-
-   
     background-image: linear-gradient( to top right,  #1c0b19, #07393c,#1c0b19 );
 }
 
@@ -18,13 +16,31 @@
     font-weight: bolder;
 
 }
+.navbar-item{
+    font-size:1.5rem;
+    color:#3dccc7 !important;
 
-.navbar {
-    color:#3dccc7;
-    font-size: 1.5rem;
-     
- }
- 
+}
+
+
+.hero-body{
+    line-height:2.5em;  
+   
+}
+
+.title{
+   
+    color:#3dccc7 !important;
+   
+
+    
+}
+.subtitle-1{
+    color:#ffffff;
+    font-size:1.5rem;
+
+}
+
 
 /*Animations*/
 .circles{
@@ -150,6 +166,8 @@
     }
 }
     /*animations ends here*/
+
+
 
 
 
