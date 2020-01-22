@@ -1,5 +1,6 @@
 * {
     font-family: 'Noto Serif SC', serif;
+    color:#3dccc7 !important;
     
     
 }
@@ -12,18 +13,15 @@
 .logo{
     font-family: 'Great Vibes', cursive;
     color:#3dccc7;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: bolder;
 
 }
 
 /* navbar items */
-.nav-link {
-    display: flex;
-    justify-content: space-around;
-    font-size:1.27rem;
-    color:#3dccc7 
-
+.navbar-end,  .tabs, .is-boxed{
+   
+    font-size:1.3rem !important;
 }
 
 
@@ -34,15 +32,14 @@
 }
  /* title hero-body section */
 .title{
-   
-    color:#3dccc7 !important;
+    color:#3dccc7t;
    
 
     
 }
 /* subtitle section */
 .subtitle-1{
-    color:#ffffff;
+    
     font-size:1.3rem;
 
 }
