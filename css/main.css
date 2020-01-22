@@ -18,10 +18,11 @@
 }
 
 /* navbar items */
-.nav-item {
-    
+.nav-link {
+    display: flex;
+    justify-content: space-around;
     font-size:1.27rem;
-    color:#3dccc7 !important;
+    color:#3dccc7 
 
 }
 
