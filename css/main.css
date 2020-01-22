@@ -4,30 +4,31 @@
     
 }
 
-
+/* hero background */
 .hero{
     background-image: linear-gradient( to top right,  #1c0b19, #07393c,#1c0b19 );
 }
-
+ /* logo section */
 .logo{
     font-family: 'Great Vibes', cursive;
     color:#3dccc7;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bolder;
 
 }
+/* navbar items */
 .navbar-item{
-    font-size:1.5rem;
+    font-size:1.3rem;
     color:#3dccc7 !important;
 
 }
 
-
+/* hero body section */
 .hero-body{
     line-height:2.5em;  
    
 }
-
+ /* title hero-body section */
 .title{
    
     color:#3dccc7 !important;
@@ -35,14 +36,15 @@
 
     
 }
+/* subtitle section */
 .subtitle-1{
     color:#ffffff;
-    font-size:1.5rem;
+    font-size:1.3rem;
 
 }
 
 
-/*Animations*/
+/*Animations for the hero-body section */
 .circles{
     position: absolute;
     top: 0;
@@ -165,7 +167,7 @@
         border-radius: 50%;
     }
 }
-    /*animations ends here*/
+    /*animations section ends here*/
 
 
 
