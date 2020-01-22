@@ -21,10 +21,12 @@
 /* navbar items */
 .navbar-end,  .tabs, .is-boxed{
    
-    font-size:1.3rem !important;
+    font-size:1.3rem ;
 }
 
-
+a:active {
+    color: red;
+  }
 /* hero body section */
 .hero-body{
     line-height:2.5em;  
