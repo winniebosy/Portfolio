@@ -12,16 +12,19 @@
 .logo{
     font-family: 'Great Vibes', cursive;
     color:#3dccc7;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bolder;
 
 }
+
 /* navbar items */
-.navbar-item{
-    font-size:1.3rem;
+.nav-item {
+    
+    font-size:1.27rem;
     color:#3dccc7 !important;
 
 }
+
 
 /* hero body section */
 .hero-body{
