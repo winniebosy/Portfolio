@@ -27,6 +27,7 @@
 a:active {
     color: red;
   }
+
 /* hero body section */
 .hero-body{
     line-height:2.5em;  
@@ -34,10 +35,8 @@ a:active {
 }
  /* title hero-body section */
 .title{
-    color:#3dccc7t;
+    color:#3dccc7;
    
-
-    
 }
 /* subtitle section */
 .subtitle-1{
