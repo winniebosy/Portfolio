@@ -20,7 +20,7 @@
 <section class = "hero is-fullheight" role ="banner">
     <section class="hero-head">
         <!-- navbar begins here -->
-        <nav class="navbar" role="navigation" aria-label="navigation" id="navbar">
+        <nav class="navbar" role="navigation" aria-label="navigation" id="nav">
             <section class ="container">
                 <!-- logo section -->
                 <nav class="navbar-brand">
@@ -30,7 +30,7 @@
                         <span class="sr-only">Portfolio Logo</span>
                     </a>
                     <!-- toggle button -->
-                    <button class ="navbar-burger burger is-hoverable" type ="button" data-target="menu" aria-controls="menu" aria-label="main menu" aria-expanded="false">
+                    <button class ="navbar-burger burger nav-toggle" type ="button" data-target="menu" aria-controls="menu" aria-label="main menu" aria-expanded="true">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -39,8 +39,8 @@
                 <!-- logo section ends here -->
 
                 <!-- Menu content section -->
-                <section id="menu" class="navbar-menu is-right">
-                    <ul class="navbar-end tabs is-boxed">
+                <section  class="navbar-menu is-right">
+                    <ul class="navbar-end" id="menu" aria-label =  "main-menu">
                         <li class="nav-item  is-active"> 
                             <a class="nav-link" href="#Home">
                             Home

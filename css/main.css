@@ -19,15 +19,36 @@
 }
 
 /* navbar items */
-.navbar-end,  .tabs, .is-boxed{
-   
-    font-size:1.3rem ;
+.navbar-end{
+    font-size:1.25rem ; 
+    
 }
 
-a:active {
-    color: red;
-  }
+.navbar-end > .nav-item{
+    margin:0.3rem;
+    padding:0.3rem;
 
+}
+.navbar-end > .nav-item:hover{
+    background-color: #069e76;
+    color:white;
+}
+.navbar-end > .nav-item:visited{
+    background-color: #07392c;
+    color:#ffffff;
+}
+
+.navbar-end > .nav-item:active{
+    background-color: #07392c;
+    color:#ffffff;
+}
+
+
+button {
+   background-color: #1c0b19;
+   border: none;
+   font-weight: bolder;
+}
 /* hero body section */
 .hero-body{
     line-height:2.5em;  
