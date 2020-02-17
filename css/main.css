@@ -19,7 +19,8 @@
 }
 
 /* navbar items */
-.navbar-end{
+.navbar-expand-md{
+    background-image: linear-gradient( to top right,  #1c0b19, #07393c,#1c0b19 );
     font-size:1.25rem ; 
     
 }
