@@ -10,7 +10,7 @@
     background-image: linear-gradient( to top right,  #1c0b19, #07393c,#1c0b19 );
 }
  /* logo section */
-.logo{
+.navbar-brand{
     font-family: 'Great Vibes', cursive;
     color:#3dccc7;
     font-size: 2rem;
@@ -21,7 +21,7 @@
 /* navbar items */
 .navbar-expand-md{
     background-image: linear-gradient( to top right,  #1c0b19, #07393c,#1c0b19 );
-    font-size:1.25rem ; 
+    font-size:1.22rem ; 
     
 }
 
@@ -45,10 +45,14 @@
 }
 
 
-button {
-   background-color: #1c0b19;
-   border: none;
+.navbar-toggler {
+    border:1px solid #3dccc7;
    font-weight: bolder;
+
+}
+.fa fa-bars{
+    color:#3dccc7;
+    margin-top:0.1rem;
 }
 /* hero body section */
 .hero-body{
